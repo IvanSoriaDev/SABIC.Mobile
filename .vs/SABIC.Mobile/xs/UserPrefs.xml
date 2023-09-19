@@ -1,6 +1,36 @@
-﻿<Properties StartupConfiguration="{010351D8-755B-4C53-9302-1C97738E9F8D}|Default">
+﻿<Properties StartupConfiguration="{43DB8048-3C6F-4D1D-A515-F5B648AC2C2A}|Default">
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_5_-_api_33" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.SABIC.Mobile.Android FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.SABIC.Mobile FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.SABIC.Mobile.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.SABIC.Mobile.Android PreferredExecutionTarget="Android.pixel_5_-_api_33" FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SABIC.Mobile/SABIC.Mobile/App.xaml.cs">
+    <Files>
+      <File FileName="SABIC.Mobile/SABIC.Mobile/ViewModels/BaseViewModel.cs" Line="55" Column="6" />
+      <File FileName="SABIC.Mobile/SABIC.Mobile/App.xaml.cs" Line="14" Column="36" />
+      <File FileName="SABIC.Mobile/SABIC.Mobile/Views/MainPage.xaml" />
+      <File FileName="SABIC.Mobile/SABIC.Mobile/Views/MainPage.xaml.cs" Line="5" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SABIC.Mobile" expanded="True">
+            <Node name="SABIC.Mobile">
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views">
+                <Node name="MainPage.xaml" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True">
+                <Node name="App.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.SABIC.Mobile.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.413691C0-0F4B-4A9A-8541-C2092FD19DF6" />
 </Properties>

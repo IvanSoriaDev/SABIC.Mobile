@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="SABIC.Mobile.iOS.app/SABIC.Mobile.iOS">
+      <BCSymbolMapName>SABIC.Mobile.iOS.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>SABIC.Mobile.iOS.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/ivansoria/Projects/SABIC.Mobile/SABIC.Mobile/SABIC.Mobile.iOS/obj/iPhoneSimulator/Debug/mtouch-symbols.list</SymbolFile>
+      <DSymName>SABIC.Mobile.iOS.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/ivansoria/Projects/SABIC.Mobile/SABIC.Mobile/SABIC.Mobile.iOS</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>

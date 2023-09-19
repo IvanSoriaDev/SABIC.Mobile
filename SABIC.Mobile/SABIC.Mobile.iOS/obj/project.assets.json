@@ -2,6 +2,35 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "Microsoft.Extensions.DependencyInjection/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -11,7 +40,7 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "Xamarin.Essentials/1.7.0": {
+      "Xamarin.Essentials/1.8.0": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -32,7 +61,7 @@
           }
         }
       },
-      "Xamarin.Forms/5.0.0.2196": {
+      "Xamarin.Forms/5.0.0.2612": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {
@@ -175,8 +204,9 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Microsoft.Extensions.DependencyInjection": "7.0.0",
+          "Xamarin.Essentials": "1.8.0",
+          "Xamarin.Forms": "5.0.0.2612"
         },
         "compile": {
           "bin/placeholder/SABIC.Mobile.dll": {}
@@ -187,6 +217,35 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "Microsoft.Extensions.DependencyInjection/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -196,7 +255,7 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "Xamarin.Essentials/1.7.0": {
+      "Xamarin.Essentials/1.8.0": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -217,7 +276,7 @@
           }
         }
       },
-      "Xamarin.Forms/5.0.0.2196": {
+      "Xamarin.Forms/5.0.0.2612": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {
@@ -360,8 +419,9 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Microsoft.Extensions.DependencyInjection": "7.0.0",
+          "Xamarin.Essentials": "1.8.0",
+          "Xamarin.Forms": "5.0.0.2612"
         },
         "compile": {
           "bin/placeholder/SABIC.Mobile.dll": {}
@@ -372,6 +432,35 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "Microsoft.Extensions.DependencyInjection/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -381,7 +470,7 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "Xamarin.Essentials/1.7.0": {
+      "Xamarin.Essentials/1.8.0": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -402,7 +491,7 @@
           }
         }
       },
-      "Xamarin.Forms/5.0.0.2196": {
+      "Xamarin.Forms/5.0.0.2612": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {
@@ -545,8 +634,9 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Microsoft.Extensions.DependencyInjection": "7.0.0",
+          "Xamarin.Essentials": "1.8.0",
+          "Xamarin.Forms": "5.0.0.2612"
         },
         "compile": {
           "bin/placeholder/SABIC.Mobile.dll": {}
@@ -557,6 +647,35 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "Microsoft.Extensions.DependencyInjection/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -566,7 +685,7 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "Xamarin.Essentials/1.7.0": {
+      "Xamarin.Essentials/1.8.0": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -587,7 +706,7 @@
           }
         }
       },
-      "Xamarin.Forms/5.0.0.2196": {
+      "Xamarin.Forms/5.0.0.2612": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {
@@ -730,8 +849,9 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Microsoft.Extensions.DependencyInjection": "7.0.0",
+          "Xamarin.Essentials": "1.8.0",
+          "Xamarin.Forms": "5.0.0.2612"
         },
         "compile": {
           "bin/placeholder/SABIC.Mobile.dll": {}
@@ -743,6 +863,64 @@
     }
   },
   "libraries": {
+    "Microsoft.Extensions.DependencyInjection/7.0.0": {
+      "sha512": "elNeOmkeX3eDVG6pYVeV82p29hr+UKDaBhrZyWvWLw/EVZSYEkZlQdkp0V39k/Xehs2Qa0mvoCvkVj3eQxNQ1Q==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.targets",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml",
+        "microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+      "sha512": "h3j/QfmFN4S0w4C2A6X7arXij/M/OVw3uQHSOFxnND4DyAzO1F9eMX7Eti7lU/OkSthEE0WzRsfT/Dmx86jzCw==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "System.Numerics.Vectors/4.5.0": {
       "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "type": "package",
@@ -790,18 +968,18 @@
         "version.txt"
       ]
     },
-    "Xamarin.Essentials/1.7.0": {
-      "sha512": "xfUJNxtfMC05VBej7fVUg6Zd9VwM2kqW9LH0tcrSA6IsBTl0EsIGkYUOz1BoKT2rseWW8o3kTi5WH/yZV4GgJw==",
+    "Xamarin.Essentials/1.8.0": {
+      "sha512": "g1yB0CkX7BVOx84P0SLm8guypbEfigqjddZsI9KgJzba6yRRcekBqDp6YTT1hO8ZcFcW8VZbsymejTJftJoQyg==",
       "type": "package",
-      "path": "xamarin.essentials/1.7.0",
+      "path": "xamarin.essentials/1.8.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
         "icon.png",
-        "lib/monoandroid10.0/Xamarin.Essentials.dll",
-        "lib/monoandroid10.0/Xamarin.Essentials.pdb",
-        "lib/monoandroid10.0/Xamarin.Essentials.xml",
+        "lib/monoandroid13.0/Xamarin.Essentials.dll",
+        "lib/monoandroid13.0/Xamarin.Essentials.pdb",
+        "lib/monoandroid13.0/Xamarin.Essentials.xml",
         "lib/netstandard1.0/Xamarin.Essentials.dll",
         "lib/netstandard1.0/Xamarin.Essentials.pdb",
         "lib/netstandard1.0/Xamarin.Essentials.xml",
@@ -828,19 +1006,21 @@
         "lib/xamarinwatchos10/Xamarin.Essentials.pdb",
         "lib/xamarinwatchos10/Xamarin.Essentials.xml",
         "readme.txt",
-        "xamarin.essentials.1.7.0.nupkg.sha512",
+        "xamarin.essentials.1.8.0.nupkg.sha512",
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/5.0.0.2196": {
-      "sha512": "zSXDiZukojtEBmZKUUG1yYBwlB9tI8JLPkc6n+Sm1PAX01QyzErWE9AaFJgP7usyoGHn92l4HnQF7A+/MPI6VA==",
+    "Xamarin.Forms/5.0.0.2612": {
+      "sha512": "zQcy3NJgRJnLRWQZ2TZPCgDoTDHoYskHLutKDvz1pVNtvJ8U7kkg4mE2XATs3dAkQ+oWoqB4VOBGRk9uAfoRMw==",
       "type": "package",
-      "path": "xamarin.forms/5.0.0.2196",
+      "path": "xamarin.forms/5.0.0.2612",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Assets/xamarin_128x128.png",
-        "build/MonoAndroid10/proguard.cfg",
+        "Licenses/LICENSE",
+        "Licenses/THIRD-PARTY-NOTICES.txt",
+        "build/MonoAndroid13/proguard.cfg",
         "build/Xamarin.Forms.DefaultItems.props",
         "build/Xamarin.Forms.DefaultItems.targets",
         "build/Xamarin.Forms.props",
@@ -861,7 +1041,7 @@
         "build/netstandard2.0/Xamarin.Forms.Build.Tasks.dll",
         "build/netstandard2.0/Xamarin.Forms.Core.dll",
         "build/netstandard2.0/Xamarin.Forms.Xaml.dll",
-        "buildTransitive/MonoAndroid10/proguard.cfg",
+        "buildTransitive/MonoAndroid13/proguard.cfg",
         "buildTransitive/Xamarin.Forms.DefaultItems.props",
         "buildTransitive/Xamarin.Forms.DefaultItems.targets",
         "buildTransitive/Xamarin.Forms.props",
@@ -882,19 +1062,19 @@
         "buildTransitive/netstandard2.0/Xamarin.Forms.Build.Tasks.dll",
         "buildTransitive/netstandard2.0/Xamarin.Forms.Core.dll",
         "buildTransitive/netstandard2.0/Xamarin.Forms.Xaml.dll",
-        "lib/MonoAndroid10.0/Design/Xamarin.Forms.Core.Design.dll",
-        "lib/MonoAndroid10.0/Design/Xamarin.Forms.Xaml.Design.dll",
-        "lib/MonoAndroid10.0/FormsViewGroup.dll",
-        "lib/MonoAndroid10.0/FormsViewGroup.pdb",
-        "lib/MonoAndroid10.0/Xamarin.Forms.Core.dll",
-        "lib/MonoAndroid10.0/Xamarin.Forms.Core.pdb",
-        "lib/MonoAndroid10.0/Xamarin.Forms.Core.xml",
-        "lib/MonoAndroid10.0/Xamarin.Forms.Platform.Android.dll",
-        "lib/MonoAndroid10.0/Xamarin.Forms.Platform.Android.pdb",
-        "lib/MonoAndroid10.0/Xamarin.Forms.Platform.dll",
-        "lib/MonoAndroid10.0/Xamarin.Forms.Xaml.dll",
-        "lib/MonoAndroid10.0/Xamarin.Forms.Xaml.pdb",
-        "lib/MonoAndroid10.0/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid13.0/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/MonoAndroid13.0/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/MonoAndroid13.0/FormsViewGroup.dll",
+        "lib/MonoAndroid13.0/FormsViewGroup.pdb",
+        "lib/MonoAndroid13.0/Xamarin.Forms.Core.dll",
+        "lib/MonoAndroid13.0/Xamarin.Forms.Core.pdb",
+        "lib/MonoAndroid13.0/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid13.0/Xamarin.Forms.Platform.Android.dll",
+        "lib/MonoAndroid13.0/Xamarin.Forms.Platform.Android.pdb",
+        "lib/MonoAndroid13.0/Xamarin.Forms.Platform.dll",
+        "lib/MonoAndroid13.0/Xamarin.Forms.Xaml.dll",
+        "lib/MonoAndroid13.0/Xamarin.Forms.Xaml.pdb",
+        "lib/MonoAndroid13.0/Xamarin.Forms.Xaml.xml",
         "lib/Xamarin.Mac/Design/Xamarin.Forms.Core.Design.dll",
         "lib/Xamarin.Mac/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/Xamarin.Mac/Xamarin.Forms.Core.dll",
@@ -1044,7 +1224,7 @@
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.5.0.0.2196.nupkg.sha512",
+        "xamarin.forms.5.0.0.2612.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
@@ -1057,8 +1237,8 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "SABIC.Mobile >= 1.0.0",
-      "Xamarin.Essentials >= 1.7.0",
-      "Xamarin.Forms >= 5.0.0.2196"
+      "Xamarin.Essentials >= 1.8.0",
+      "Xamarin.Forms >= 5.0.0.2612"
     ]
   },
   "packageFolders": {
@@ -1098,11 +1278,11 @@
         "dependencies": {
           "Xamarin.Essentials": {
             "target": "Package",
-            "version": "[1.7.0, )"
+            "version": "[1.8.0, )"
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[5.0.0.2196, )"
+            "version": "[5.0.0.2612, )"
           }
         }
       }

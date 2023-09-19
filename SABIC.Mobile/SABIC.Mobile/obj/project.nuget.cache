@@ -1,14 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "Amwf8N3E/zXtHDMyRfKeLCyUVNfZ9PJbvsw+YdH3OVsAiQ3ZBcuk9F/0O21J1cFfCKbMkLcANG7a7GKuQEjwjQ==",
+  "dgSpecHash": "1jJmw5IQulJh3ArIq0Tlj5QQx4qegT4ZaB5RVhwRdEIgz/SBSEImJ/r23JsKNuoe2cwzqbzc7rLe2FqGAqPi/A==",
   "success": true,
   "projectFilePath": "/Users/ivansoria/Projects/SABIC.Mobile/SABIC.Mobile/SABIC.Mobile/SABIC.Mobile.csproj",
   "expectedPackageFiles": [
+    "/Users/ivansoria/.nuget/packages/microsoft.bcl.asyncinterfaces/7.0.0/microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
+    "/Users/ivansoria/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "/Users/ivansoria/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "/Users/ivansoria/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/ivansoria/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
     "/Users/ivansoria/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
-    "/Users/ivansoria/.nuget/packages/xamarin.essentials/1.7.0/xamarin.essentials.1.7.0.nupkg.sha512",
-    "/Users/ivansoria/.nuget/packages/xamarin.forms/5.0.0.2196/xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "/Users/ivansoria/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.3/system.runtime.compilerservices.unsafe.4.5.3.nupkg.sha512",
+    "/Users/ivansoria/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "/Users/ivansoria/.nuget/packages/xamarin.essentials/1.8.0/xamarin.essentials.1.8.0.nupkg.sha512",
+    "/Users/ivansoria/.nuget/packages/xamarin.forms/5.0.0.2612/xamarin.forms.5.0.0.2612.nupkg.sha512"
   ],
   "logs": []
 }
