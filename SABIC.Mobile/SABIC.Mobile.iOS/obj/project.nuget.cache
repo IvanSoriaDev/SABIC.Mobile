@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "uoF3MPDImRQN83uQ/0NdxOHhjaBrAtbXoEk15ZCfCB/sddkt+IhjA9sJ+rNC3WTvYvdHPFx7YAB71QwHmKpTJA==",
+  "success": true,
+  "projectFilePath": "/Users/ivansoria/Projects/SABIC.Mobile/SABIC.Mobile/SABIC.Mobile.iOS/SABIC.Mobile.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/ivansoria/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/ivansoria/.nuget/packages/xamarin.essentials/1.7.0/xamarin.essentials.1.7.0.nupkg.sha512",
+    "/Users/ivansoria/.nuget/packages/xamarin.forms/5.0.0.2196/xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
