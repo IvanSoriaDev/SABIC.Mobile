@@ -6,31 +6,20 @@ namespace SABIC.Mobile.ViewModels
 {
     public class MainPageViewModel : BaseViewModel
     {
-        public INavigationService _navigationService;
-
         public ICommand NavigateToRecordCommand { private set; get; }
 
         public ICommand NavigateToWordFormatterCommand { private set; get; }
 
-        public MainPageViewModel(INavigationService navigationService) 
+        public MainPageViewModel(INavigationService navigationService) : base (navigationService)
 		{
-            _navigationService = navigationService;
-
             NavigateToRecordCommand = new Command(execute: async () =>
             {
-                try
-                {
-                    await _navigationService.NavigateToAsync<RecordAudioPageViewModel>();
-                }
-                catch (System.Exception ex)
-                {
-                    System.Console.WriteLine(ex.Message);
-                }
+                await _navigationService.NavigateToAsync<RecordAudioPageViewModel>();
             });
 
             NavigateToWordFormatterCommand = new Command(execute: async () =>
             {
-                
+                await _navigationService.NavigateToAsync<WordEditorPageViewModel>();
             });
         }
 	}

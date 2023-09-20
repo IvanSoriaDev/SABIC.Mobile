@@ -20,7 +20,7 @@ namespace SABIC.Mobile.ViewModels
             set => SetProperty(ref _resultLabel, value);
         }
 
-        public RecordAudioPageViewModel(INavigationService navigationService)
+        public RecordAudioPageViewModel(INavigationService navigationService) : base(navigationService)
         {
 
             _navigationService = navigationService;

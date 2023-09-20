@@ -11,9 +11,11 @@ namespace SABIC.Mobile.ViewModels
 {
     public abstract class BaseViewModel : BindableObject
     {
+        public INavigationService _navigationService;
 
-        public BaseViewModel()
+        public BaseViewModel(INavigationService navigationService)
         {
+            _navigationService = navigationService;
         }
 
         protected bool SetProperty<T>(ref T storage, T value, [CallerMemberName] string propertyName = null)

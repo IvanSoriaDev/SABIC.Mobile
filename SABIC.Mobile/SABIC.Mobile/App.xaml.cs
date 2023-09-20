@@ -41,6 +41,7 @@ namespace SABIC.Mobile
 
             services.AddTransient<MainPageViewModel>();
             services.AddTransient<RecordAudioPageViewModel>();
+            services.AddTransient<WordEditorPageViewModel>();
 
             ServiceProvider = services.BuildServiceProvider();
         }
