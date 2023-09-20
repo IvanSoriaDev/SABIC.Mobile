@@ -7,8 +7,9 @@
     x:Class="SABIC.Mobile.Views.MainPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="{Binding DemoLabel}"/>
-
+            <Button Text="Start Recording" Command="{Binding StartRecord}"  />
+            <Button Text="Stop Recording" Command="{Binding StopRecording}" />
+            <Label Text="{Binding ResultLabel}" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

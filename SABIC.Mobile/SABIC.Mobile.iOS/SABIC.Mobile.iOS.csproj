@@ -68,6 +68,7 @@
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\AudioRecorderService.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
@@ -132,5 +133,8 @@
       <Project>{9DBA7A1F-EC15-42EA-B5F1-47B369F06BF7}</Project>
       <Name>SABIC.Mobile</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
   </ItemGroup>
 </Project>

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ezhuEi1qIipNfAZalJC0KCTBqoFkOS7ZTpwLht6t77RLl1hEw1tIoJEFEueYfC2lY5ywhGQbu8r1Q45TbTqnzQ==",
+  "dgSpecHash": "DiXTLAVh8OS84UYGoFAfeqQj7WyeoFJh+vViHtkuw0fvKUdDS38S3Ekm6f31Fjli0JNs+h/IbYe+oe2+/GkYKg==",
   "success": true,
   "projectFilePath": "/Users/ivansoria/Projects/SABIC.Mobile/SABIC.Mobile/SABIC.Mobile.Android/SABIC.Mobile.Android.csproj",
   "expectedPackageFiles": [
     "/Users/ivansoria/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "/Users/ivansoria/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/Users/ivansoria/.nuget/packages/plugin.currentactivity/2.1.0.4/plugin.currentactivity.2.1.0.4.nupkg.sha512",
     "/Users/ivansoria/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
     "/Users/ivansoria/.nuget/packages/xamarin.androidx.activity/1.6.1/xamarin.androidx.activity.1.6.1.nupkg.sha512",
     "/Users/ivansoria/.nuget/packages/xamarin.androidx.annotation/1.6.0.1/xamarin.androidx.annotation.1.6.0.1.nupkg.sha512",

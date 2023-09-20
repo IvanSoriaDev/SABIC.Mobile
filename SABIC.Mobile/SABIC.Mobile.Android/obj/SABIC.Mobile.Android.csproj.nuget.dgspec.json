@@ -36,6 +36,10 @@
       "frameworks": {
         "monoandroid13.0": {
           "dependencies": {
+            "Plugin.CurrentActivity": {
+              "target": "Package",
+              "version": "[2.1.0.4, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.8.0, )"
