@@ -1,11 +1,10 @@
-﻿using System;
-using System.Windows.Input;
+﻿using System.Windows.Input;
 using SABIC.Mobile.Services;
 using Xamarin.Forms;
 
 namespace SABIC.Mobile.ViewModels
 {
-	public class MainPageViewModel : BaseViewModel
+    public class MainPageViewModel : BaseViewModel
     {
         public ICommand StartRecord { private set; get; }
 

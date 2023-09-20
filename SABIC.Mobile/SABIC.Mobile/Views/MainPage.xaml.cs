@@ -20,18 +20,6 @@ namespace SABIC.Mobile.Views
 
 
         }
-
-        private async void StartRecordingButton_Clicked(object sender, EventArgs e)
-        {
-            
-        }
-
-        private async void StopRecordingButton_Clicked(object sender, EventArgs e)
-        {
-            await DependencyService.Get<IAudioRecorderService>().StopRecordingAsync();
-        }
-
-
     }
 }
 
