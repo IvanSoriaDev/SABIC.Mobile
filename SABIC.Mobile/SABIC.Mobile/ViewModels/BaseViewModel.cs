@@ -4,12 +4,14 @@ using System.Linq.Expressions;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
+using SABIC.Mobile.Services;
 using Xamarin.Forms;
 
 namespace SABIC.Mobile.ViewModels
 {
-    public class BaseViewModel : BindableObject
+    public abstract class BaseViewModel : BindableObject
     {
+
         public BaseViewModel()
         {
         }

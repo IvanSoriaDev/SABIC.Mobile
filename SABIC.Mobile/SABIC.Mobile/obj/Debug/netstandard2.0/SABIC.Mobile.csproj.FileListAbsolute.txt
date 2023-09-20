@@ -13,3 +13,4 @@
 /Users/ivansoria/Projects/SABIC.Mobile/SABIC.Mobile/SABIC.Mobile/obj/Debug/netstandard2.0/refint/SABIC.Mobile.dll
 /Users/ivansoria/Projects/SABIC.Mobile/SABIC.Mobile/SABIC.Mobile/obj/Debug/netstandard2.0/SABIC.Mobile.pdb
 /Users/ivansoria/Projects/SABIC.Mobile/SABIC.Mobile/SABIC.Mobile/obj/Debug/netstandard2.0/Views/MainPage.xaml.g.cs
+/Users/ivansoria/Projects/SABIC.Mobile/SABIC.Mobile/SABIC.Mobile/obj/Debug/netstandard2.0/Views/RecordAudioPage.xaml.g.cs

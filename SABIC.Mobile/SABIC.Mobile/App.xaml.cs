@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.Extensions.DependencyInjection;
+using SABIC.Mobile.Services;
 using SABIC.Mobile.ViewModels;
 using SABIC.Mobile.Views;
 using Xamarin.Forms;
@@ -17,7 +18,7 @@ namespace SABIC.Mobile
 
             SetupServices();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new Views.MainPage());
         }
 
         protected override void OnStart ()
@@ -36,7 +37,10 @@ namespace SABIC.Mobile
         {
             var services = new ServiceCollection();
 
+            services.AddSingleton<INavigationService, NavigationService>();
+
             services.AddTransient<MainPageViewModel>();
+            services.AddTransient<RecordAudioPageViewModel>();
 
             ServiceProvider = services.BuildServiceProvider();
         }

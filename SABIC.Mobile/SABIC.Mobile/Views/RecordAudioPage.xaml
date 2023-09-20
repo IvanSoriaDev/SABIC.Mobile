@@ -4,11 +4,12 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
     ios:Page.UseSafeArea="true"
-    x:Class="SABIC.Mobile.Views.MainPage">
+    x:Class="SABIC.Mobile.Views.RecordAudioPage">
     <ContentPage.Content>
         <StackLayout>
-            <Button Text="Navigate to Record Audio" Command="{Binding NavigateToRecordCommand}"  />
-            <Button Text="Navigate to word formatter control" Command="{Binding NavigateToWordFormatterCommand}" />
+            <Button Text="Start Recording" Command="{Binding StartRecord}"  />
+            <Button Text="Stop Recording" Command="{Binding StopRecording}" />
+            <Label Text="{Binding ResultLabel}" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
